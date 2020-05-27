@@ -5,7 +5,8 @@ npm install
 node index.js
 ```
 
-0.000s started A request synchronous
+```text
+0s started A request synchronous
 3.401s finished A request synchronous
 3.402s started B request asynchronous
 3.402s started C request asynchronous
@@ -17,5 +18,6 @@ node index.js
 7.799s finished B request asynchronous
 7.799s started F request synchronous
 11.387s finished F request synchronous
+```
 
 [Explained on stackowerflow](https://stackoverflow.com/questions/748175/asynchronous-vs-synchronous-execution-what-does-it-really-mean)
